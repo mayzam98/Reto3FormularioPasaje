@@ -601,6 +601,8 @@ public class Ticket extends javax.swing.JFrame {
     }
     
      public String imprimirTicket(clsTicket ticket){
+         
+         System.out.println("- - - - - - - - TIQUETE DE VIAJE - - - - - - ");
         double valorTotal = ticket.getValor()*(ticket.getCantidadAdultos()+ticket.getCantidadNiños());
         if(ticket.isRetorno())
             valorTotal = valorTotal *2;

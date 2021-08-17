@@ -50,7 +50,7 @@ public class clsTicket {
         this.valor = valor;
         this.retorno = retorno;
         this.pasajero = pasajero;
-        System.out.println(pasajero.getClass());
+        //System.out.println(pasajero.getClass());
         if(pasajero.getClass().toString().equals("class classes.clsPasajeroAdulto")){
             listaObjetosPasajeroAdulto.add((clsPasajeroAdulto)pasajero);
            
